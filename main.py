@@ -10,5 +10,4 @@ def hello_world():
 
 @app.route("/health")
 def health():
-    print("health check called")
     return {"status": "healthy"}, 200
