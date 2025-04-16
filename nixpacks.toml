@@ -1,2 +1,2 @@
 [start]
-cmd = "flask --app main run"
+cmd = "python main.py"
