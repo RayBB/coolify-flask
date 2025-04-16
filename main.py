@@ -4,10 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    print("hello world called")
-    return "<p>Hello, World!</p>"
+    return "<p>Hello, World!!</p>"
 
-@app.route('/health', methods=['GET']) 
+@app.route('/health') 
 def health(): 
-    print("health check called")
     return  {"status":"healthy"}, 200
