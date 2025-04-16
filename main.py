@@ -9,4 +9,5 @@ def hello_world():
 
 @app.route('/health', methods=['GET']) 
 def health(): 
+    print("health check called")
     return  {"status":"healthy"}, 200
