@@ -1,2 +1,2 @@
 [start]
-cmd = "python main.py"
+cmd = "gunicorn -w 4 -b 0.0.0.0:3000 main:app"

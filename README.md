@@ -1,0 +1,2 @@
+To Run:
+`uv run gunicorn -w 4 -b 0.0.0.0:3000 main:app`
